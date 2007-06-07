@@ -1,0 +1,10 @@
+DESCRIPTION="Cross-platform 3D audio utility library"
+HOMEPAGE="http://www.openal.org/"
+SRC_URI="http://www.openal.org/openal_webstf/downloads/${P}.tar.gz"
+
+HTMLDOCS='doc/alut.*'
+
+PKG_NAMES="${PN} libalut0"
+PKG_HINTS="setup runtime"
+PKG_CONTENTS[0]='--exclude=usr/bin/*.dll usr/'
+PKG_CONTENTS[1]='usr/bin/*.dll'
