@@ -1,5 +1,5 @@
 category: Audio
-requires: cygwin libopenal0
+requires: libopenal0
 external-source: freealut
 sdesc: "Cross-platform 3D audio utility library (runtime)"
 ldesc: "OpenAL is a cross-platform 3D audio API appropriate for use with
