@@ -1,7 +1,7 @@
 category: Audio
-requires: libopenal0
+requires: libalut0 libopenal-devel
 external-source: freealut
-sdesc: "Cross-platform 3D audio utility library (runtime)"
+sdesc: "Cross-platform 3D audio utility library (development)"
 ldesc: "OpenAL is a cross-platform 3D audio API appropriate for use with
 gaming applications and many other types of audio applications.
 

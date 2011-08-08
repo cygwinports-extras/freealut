@@ -1,0 +1,10 @@
+DESCRIPTION="Cross-platform 3D audio utility library"
+HOMEPAGE="http://connect.creativelabs.com/openal/"
+SRC_URI="http://connect.creativelabs.com/openal/Downloads/ALUT/${P}.tar.gz"
+
+PKG_NAMES="libalut0 libalut-devel"
+libalut0_CONTENTS="usr/bin/cygalut-0.dll usr/share/doc/"
+libalut_devel_CONTENTS="usr/bin/*-config usr/include/ usr/lib/"
+
+CYGCONF_ARGS="alut_cv_CFLAGS_fvisibility_hidden=no ac_cv_header_windows_h=no"
+HTMLDOCS='doc/alut.*'
